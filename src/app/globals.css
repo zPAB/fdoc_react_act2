@@ -24,3 +24,60 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.tarjeta {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #cccccc; 
+  border-radius: 5px; 
+  text-align: center;
+  margin: 20px auto;
+  color: #333333;
+}
+
+.imagen-contenedor {
+  background-color: #eeeeee;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  margin: 0 auto 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+
+.nombre {
+  color: #000000;
+  margin: 10px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.descripcion {
+  color: #555555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.boton {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.boton:hover {
+  background-color: #004494;
+}
